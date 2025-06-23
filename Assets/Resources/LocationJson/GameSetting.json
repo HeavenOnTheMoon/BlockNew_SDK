@@ -1,0 +1,245 @@
+﻿{
+  "Item": {
+    "gold": {
+      "id": "gold",
+      "comment": "金币",
+      "icon": "Art/Tex/UI/Item/item_gold",
+      "defaultValue": 300,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 1
+    },
+    "diamond": {
+      "id": "diamond",
+      "comment": "钻石",
+      "icon": "Art/Tex/UI/Item/item_diamond",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 1
+    },
+    "health": {
+      "id": "health",
+      "comment": "体力",
+      "icon": "Art/Tex/UI/Item/item_health",
+      "defaultValue": 30,
+      "minValue": 0,
+      "maxValue": 30,
+      "type": 1
+    },
+    "exp": {
+      "id": "exp",
+      "comment": "经验",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 2
+    },
+    "skin_gb_1": {
+      "id": "skin_gb_1",
+      "comment": "皮肤1",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": 1,
+      "type": 2
+    }
+  },
+  "ItemGroup": [
+    {
+      "id": "G1",
+      "item_id": "gold",
+      "item_num": 300
+    },
+    {
+      "id": "G1",
+      "item_id": "diamond",
+      "item_num": 50
+    },
+    {
+      "id": "G1",
+      "item_id": "health",
+      "item_num": 30
+    },
+    {
+      "id": "G2",
+      "item_id": "gold",
+      "item_num": 1000
+    },
+    {
+      "id": "G2",
+      "item_id": "diamond",
+      "item_num": 200
+    },
+    {
+      "id": "G3",
+      "item_id": "gold",
+      "item_num": 100
+    },
+    {
+      "id": "G4",
+      "item_id": "diamond",
+      "item_num": 10
+    }
+  ],
+  "Shop": [
+    {
+      "id": "S1",
+      "itemgroup_id": "G1",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_pack1",
+      "purchase_type": 3,
+      "price": 100,
+      "is_show": true
+    },
+    {
+      "id": "S2",
+      "itemgroup_id": "G2",
+      "gp_pid": "gold1_2",
+      "ios_pid": "gold1_2",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_pack1",
+      "purchase_type": 1,
+      "price": 1.99,
+      "is_show": true
+    },
+    {
+      "id": "S3",
+      "itemgroup_id": "G3",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_gold_01",
+      "purchase_type": 1,
+      "price": 0,
+      "is_show": true,
+      "num": 1
+    },
+    {
+      "id": "S4",
+      "itemgroup_id": "G4",
+      "gp_pid": "gold2_2",
+      "ios_pid": "gold2_2",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_gold_01",
+      "purchase_type": 1,
+      "price": 8.99,
+      "is_show": true
+    }
+  ],
+  "Level": [
+    {
+      "id": "L001",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L002",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L003",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L004",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L005",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L006",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L007",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L008",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L009",
+      "itemgroup_id": "G5"
+    },
+    {
+      "id": "L010",
+      "itemgroup_id": "G5"
+    }
+  ],
+  "ExpBox": [
+    {
+      "box_id": "Collection",
+      "level": 1,
+      "exp_key": "exp",
+      "exp_value": 1,
+      "itemgroup_id": "G1"
+    },
+    {
+      "box_id": "Collection",
+      "level": 2,
+      "exp_key": "exp",
+      "exp_value": 10,
+      "itemgroup_id": "G2"
+    },
+    {
+      "box_id": "Collection",
+      "level": 3,
+      "exp_key": "exp",
+      "exp_value": 20,
+      "itemgroup_id": "G3"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 1,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 2,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 3,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 4,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "LevelBox",
+      "level": 1,
+      "exp_key": "exp"
+    },
+    {
+      "box_id": "LevelBox",
+      "level": 2,
+      "exp_key": "exp"
+    },
+    {
+      "box_id": "Activity1",
+      "level": 1,
+      "exp_key": "lianshengExp",
+      "exp_value": 5,
+      "itemgroup_id": "GAct1"
+    }
+  ],
+  "Skin": [
+    {
+      "item_id": "skin_gb_1",
+      "skin_type": "Scheme",
+      "unlock_type": 4,
+      "unlock_value": "1"
+    },
+    {
+      "item_id": "skin_gb_2",
+      "skin_type": "Scheme",
+      "unlock_type": 4,
+      "unlock_value": "1"
+    },
+    {
+      "item_id": "skin_gb_3",
+      "skin_type": "Scheme",
+      "unlock_type": 4,
+      "unlock_value": "1"
+    }
+  ]
+}

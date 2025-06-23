@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 751,308
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/dui
+  rotate: false
+  xy: 2, 38
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+img/lite
+  rotate: false
+  xy: 2, 97
+  size: 441, 209
+  orig: 441, 209
+  offset: 0, 0
+  index: -1
+img/sign_Scratchcard
+  rotate: false
+  xy: 445, 2
+  size: 304, 304
+  orig: 304, 304
+  offset: 0, 0
+  index: -1

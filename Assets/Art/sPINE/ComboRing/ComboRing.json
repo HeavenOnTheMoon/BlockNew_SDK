@@ -1,0 +1,188 @@
+{
+"skeleton": { "hash": "u+DeVYGHSX7QS3dQmkptNrYSJEQ", "spine": "3.8", "x": -557.57, "y": -1252.99, "width": 1098.57, "height": 2342 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "pot", "parent": "all", "rotation": 90, "x": -838.06 },
+	{ "name": "glow", "parent": "pot", "length": 168, "scaleX": 0.2048, "scaleY": 0.2048 },
+	{ "name": "pot2", "parent": "all", "rotation": 90, "x": -838.06 },
+	{ "name": "glow2", "parent": "pot2", "length": 168, "scaleX": 0.2048, "scaleY": 0.2048 },
+	{ "name": "Ring_in", "parent": "all", "length": 300 }
+],
+"slots": [
+	{ "name": "aaa", "bone": "all" },
+	{ "name": "GameBoard_1", "bone": "all" },
+	{ "name": "Mask_ring_in", "bone": "all", "attachment": "Mask_ring_in" },
+	{ "name": "Ring_in", "bone": "Ring_in", "color": "ffffff00", "attachment": "rainbow_1" },
+	{ "name": "GameBoard_2", "bone": "all", "color": "ffffff00", "attachment": "GameBoard_ring" },
+	{ "name": "way_1", "bone": "all", "attachment": "way_1" },
+	{ "name": "glow1 1", "bone": "glow", "color": "ebff5f00", "attachment": "glow1 1", "blend": "additive" },
+	{ "name": "glow1 2", "bone": "glow2", "color": "ebff5f00", "attachment": "glow1 1", "blend": "additive" }
+],
+"path": [
+	{
+		"name": "way_1",
+		"bones": [ "pot" ],
+		"target": "way_1",
+		"position": 0.1194
+	},
+	{
+		"name": "way_2",
+		"order": 1,
+		"bones": [ "pot2" ],
+		"target": "way_1"
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"GameBoard_2": {
+				"GameBoard_ring": { "width": 1082, "height": 1082 }
+			},
+			"Mask_ring_in": {
+				"Mask_ring_in": {
+					"type": "clipping",
+					"end": "Ring_in",
+					"vertexCount": 55,
+					"vertices": [ -489.24, -483.26, -494.54, -476.44, -496.95, -471.69, -499.31, -462.89, -499.35, 479.55, -496.86, 488.47, -492.72, 495.83, -486.16, 502.96, -481.29, 506.38, -474.73, 509.64, -468.56, 511.05, 464.75, 511.24, 471.77, 510.52, 477.83, 508.1, 485.77, 503.15, 491.72, 496.81, 496.92, 487.49, 499.11, 479.29, 499.6, -463.49, 497.41, -470.84, 492.07, -479.21, 486.73, -485.45, 482.02, -489.3, 476.32, -492.22, 469.31, -494.16, -468.19, -494.45, -475.78, -492.54, -482.89, -488.67, -489.23, -483.31, -479.87, -475.95, -475.23, -479.62, -471.29, -481.33, -466.71, -482.49, 466.77, -482.52, 472.47, -480.78, 477.31, -478.09, 481.81, -473.66, 486.5, -465.82, 487.52, -459.49, 487.19, 479.29, 485.89, 483.84, 483.25, 488.98, 479.3, 492.96, 474.01, 496.64, 467.54, 498.95, -467.44, 499.16, -474.3, 496.81, -479.4, 492.91, -483.32, 488.34, -485.7, 483.49, -487.13, 478.49, -487.49, -462.28, -485.88, -468.39, -483.13, -472.43, -479.87, -475.97 ]
+				}
+			},
+			"Ring_in": {
+				"rainbow_1": { "scaleX": 5, "scaleY": 5, "width": 320, "height": 320 }
+			},
+			"glow1 1": {
+				"glow1 1": { "width": 512, "height": 512 }
+			},
+			"glow1 2": {
+				"glow1 1": { "width": 512, "height": 512 }
+			},
+			"way_1": {
+				"way_1": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 416.73, 498.83, 1403.49, 1484.33, 2364.63, 2453.11, 3357.6, 3428.68, 3904.22 ],
+					"vertexCount": 27,
+					"vertices": [ 108.64, 506.67, -19.13, 506.15, -132.5, 505.69, -356.01, 504.87, -435.86, 505.89, -478.71, 506.44, -493.14, 497.8, -493.12, 465.22, -493.04, 314.26, -493.85, -294.53, -492.63, -439.44, -492.22, -488.27, -469.65, -486.98, -443.66, -486.92, -300.65, -486.62, 294.97, -488.35, 436.64, -490.07, 466.71, -490.44, 495.56, -487.04, 495.56, -441.83, 495.55, -289.41, 497.35, 326.86, 495.91, 462.66, 495.44, 506.48, 473.86, 510.62, 456.39, 510.3, 438.85, 509.98 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"GameBoard_2": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ff9c3aff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "color": "80ffe0ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.1333, "color": "ffccfeff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.6667, "color": "ff9c3aff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.8333, "color": "80ffe0ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.1333, "color": "ffccfeff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 8, "color": "ffffffff" }
+				]
+			},
+			"Ring_in": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4, "color": "ffffffff" }
+				]
+			},
+			"glow1 1": {
+				"color": [
+					{ "color": "ebff5f00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffa31f62" },
+					{ "time": 3, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "color": "ebff5f00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 5, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 6, "color": "ffa31f62" },
+					{ "time": 7, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 8, "color": "ffa31e00" }
+				]
+			},
+			"glow1 2": {
+				"color": [
+					{ "color": "ebff5f00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffa31f62" },
+					{ "time": 3, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "color": "ebff5f00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 5, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 6, "color": "ffa31f62" },
+					{ "time": 7, "color": "ffd05fff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 8, "color": "ffa31e00" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 },
+					{ "time": 3, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 6 },
+					{ "time": 7, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8 }
+				]
+			},
+			"glow2": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 },
+					{ "time": 3, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 6 },
+					{ "time": 7, "x": 4.827, "y": 0.739, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8 }
+				]
+			},
+			"Ring_in": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 90 },
+					{ "time": 1, "angle": 180 },
+					{ "time": 1.5, "angle": -90 },
+					{ "time": 2 },
+					{ "time": 2.5, "angle": 90 },
+					{ "time": 3, "angle": 180 },
+					{ "time": 3.5, "angle": -90 },
+					{ "time": 4 },
+					{ "time": 4.5, "angle": 90 },
+					{ "time": 5, "angle": 180 },
+					{ "time": 5.5, "angle": -90 },
+					{ "time": 6 },
+					{ "time": 6.5, "angle": 90 },
+					{ "time": 7, "angle": 180 },
+					{ "time": 7.5, "angle": -90 },
+					{ "time": 8 }
+				]
+			}
+		},
+		"path": {
+			"way_1": {
+				"position": [
+					{ "position": 0.1194, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "position": 0.37, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8, "position": 0.62 }
+				]
+			},
+			"way_2": {
+				"position": [
+					{ "position": 0.62, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "position": 0.87, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8, "position": 1.12 }
+				]
+			}
+		}
+	}
+}
+}

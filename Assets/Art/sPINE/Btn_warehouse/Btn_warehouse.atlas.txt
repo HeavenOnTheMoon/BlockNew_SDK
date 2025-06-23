@@ -1,0 +1,48 @@
+
+Btn_warehouse.png
+size: 415,770
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Btn_warehouse_lock
+  rotate: false
+  xy: 2, 296
+  size: 378, 234
+  orig: 380, 236
+  offset: 1, 1
+  index: -1
+Light_ring
+  rotate: false
+  xy: 2, 2
+  size: 292, 292
+  orig: 306, 306
+  offset: 7, 7
+  index: -1
+Light_ring_2
+  rotate: false
+  xy: 2, 532
+  size: 380, 236
+  orig: 382, 238
+  offset: 1, 1
+  index: -1
+icon_video_1
+  rotate: false
+  xy: 296, 65
+  size: 79, 75
+  orig: 85, 82
+  offset: 3, 3
+  index: -1
+light_lock_1
+  rotate: true
+  xy: 296, 19
+  size: 44, 57
+  orig: 48, 61
+  offset: 2, 2
+  index: -1
+light_lock_2
+  rotate: false
+  xy: 296, 142
+  size: 117, 152
+  orig: 121, 156
+  offset: 2, 2
+  index: -1

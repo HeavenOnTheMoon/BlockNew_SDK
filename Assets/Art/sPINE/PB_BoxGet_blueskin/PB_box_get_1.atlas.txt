@@ -1,0 +1,41 @@
+
+PB_box_get_1.png
+size: 816,227
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PB_1
+  rotate: true
+  xy: 771, 74
+  size: 151, 43
+  orig: 158, 50
+  offset: 5, 4
+  index: -1
+Schedule
+  rotate: true
+  xy: 666, 25
+  size: 94, 43
+  orig: 94, 43
+  offset: 0, 0
+  index: -1
+images/gy2
+  rotate: false
+  xy: 228, 9
+  size: 436, 216
+  orig: 455, 279
+  offset: 10, 32
+  index: -1
+images/lizi2
+  rotate: true
+  xy: 666, 121
+  size: 104, 103
+  orig: 104, 103
+  offset: 0, 0
+  index: -1
+images/quan1
+  rotate: false
+  xy: 2, 2
+  size: 224, 223
+  orig: 224, 223
+  offset: 0, 0
+  index: -1

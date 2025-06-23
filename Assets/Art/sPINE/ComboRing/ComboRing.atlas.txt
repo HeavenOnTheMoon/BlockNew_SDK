@@ -1,0 +1,27 @@
+
+ComboRing.png
+size: 1443,1008
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GameBoard_ring
+  rotate: true
+  xy: 2, 2
+  size: 1004, 1011
+  orig: 1082, 1082
+  offset: 39, 44
+  index: -1
+glow1 1
+  rotate: false
+  xy: 1015, 577
+  size: 426, 429
+  orig: 512, 512
+  offset: 43, 41
+  index: -1
+rainbow_1
+  rotate: false
+  xy: 1015, 255
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1

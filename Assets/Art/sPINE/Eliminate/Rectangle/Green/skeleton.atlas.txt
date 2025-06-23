@@ -1,0 +1,111 @@
+
+skeleton.png
+size: 2919,1082
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IMG/BGC
+  rotate: true
+  xy: 2, 4
+  size: 206, 1071
+  orig: 237, 1109
+  offset: 15, 19
+  index: -1
+IMG/BGC1
+  rotate: false
+  xy: 2503, 9
+  size: 206, 1071
+  orig: 237, 1109
+  offset: 15, 19
+  index: -1
+IMG/BGC10
+  rotate: true
+  xy: 2, 863
+  size: 217, 1145
+  orig: 250, 1183
+  offset: 16, 19
+  index: -1
+IMG/BGC11
+  rotate: true
+  xy: 2, 644
+  size: 217, 1145
+  orig: 250, 1183
+  offset: 16, 19
+  index: -1
+IMG/BGC2
+  rotate: false
+  xy: 2711, 9
+  size: 206, 1071
+  orig: 237, 1109
+  offset: 15, 19
+  index: -1
+IMG/BGC3
+  rotate: true
+  xy: 1149, 866
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGC4
+  rotate: true
+  xy: 2, 428
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGC5
+  rotate: true
+  xy: 1149, 650
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGC6
+  rotate: true
+  xy: 2, 212
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGC7
+  rotate: true
+  xy: 1149, 434
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGC8
+  rotate: true
+  xy: 1119, 218
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGC9
+  rotate: true
+  xy: 1119, 2
+  size: 214, 1115
+  orig: 247, 1155
+  offset: 16, 20
+  index: -1
+IMG/BGD
+  rotate: false
+  xy: 2266, 105
+  size: 235, 975
+  orig: 265, 1024
+  offset: 15, 29
+  index: -1
+IMG/BOXA
+  rotate: false
+  xy: 2236, 49
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+IMG/BOXB
+  rotate: false
+  xy: 1075, 169
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1

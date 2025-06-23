@@ -1,0 +1,55 @@
+
+WheelLight_Blue_1.png
+size: 1429,1050
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light_on
+  rotate: false
+  xy: 1054, 77
+  size: 80, 80
+  orig: 82, 82
+  offset: 1, 1
+  index: -1
+Ring
+  rotate: true
+  xy: 2, 2
+  size: 1046, 1050
+  orig: 1048, 1052
+  offset: 1, 1
+  index: -1
+Ring_2
+  rotate: false
+  xy: 1054, 296
+  size: 357, 346
+  orig: 367, 352
+  offset: 7, 6
+  index: -1
+dianliang_lizi1
+  rotate: false
+  xy: 1157, 259
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+img/ChoseRing_1
+  rotate: true
+  xy: 1054, 644
+  size: 404, 373
+  orig: 404, 373
+  offset: 0, 0
+  index: -1
+img/fx_b
+  rotate: false
+  xy: 1054, 51
+  size: 25, 24
+  orig: 30, 30
+  offset: 2, 3
+  index: -1
+pointer
+  rotate: false
+  xy: 1054, 159
+  size: 101, 135
+  orig: 103, 137
+  offset: 1, 1
+  index: -1

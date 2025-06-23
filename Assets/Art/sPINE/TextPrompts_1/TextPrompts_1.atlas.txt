@@ -1,0 +1,146 @@
+
+TextPrompts_1.png
+size: 1712,352
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BRAIN_A
+  rotate: true
+  xy: 1027, 110
+  size: 117, 118
+  orig: 125, 125
+  offset: 4, 3
+  index: -1
+BRAIN_B
+  rotate: true
+  xy: 621, 4
+  size: 100, 119
+  orig: 106, 125
+  offset: 3, 3
+  index: -1
+BRAIN_I
+  rotate: false
+  xy: 1662, 109
+  size: 48, 118
+  orig: 54, 125
+  offset: 3, 4
+  index: -1
+BRAIN_N
+  rotate: true
+  xy: 1267, 3
+  size: 108, 117
+  orig: 114, 125
+  offset: 3, 4
+  index: -1
+BRAIN_R
+  rotate: true
+  xy: 1128, 10
+  size: 98, 118
+  orig: 105, 125
+  offset: 3, 4
+  index: -1
+CRUSH_C
+  rotate: true
+  xy: 1267, 113
+  size: 114, 142
+  orig: 128, 149
+  offset: 6, 6
+  index: -1
+CRUSH_H
+  rotate: true
+  xy: 887, 110
+  size: 117, 138
+  orig: 130, 148
+  offset: 6, 8
+  index: -1
+CRUSH_R
+  rotate: true
+  xy: 1411, 118
+  size: 109, 138
+  orig: 122, 148
+  offset: 6, 8
+  index: -1
+CRUSH_S
+  rotate: true
+  xy: 1532, 2
+  size: 101, 143
+  orig: 116, 150
+  offset: 8, 6
+  index: -1
+CRUSH_U
+  rotate: true
+  xy: 621, 106
+  size: 121, 141
+  orig: 133, 150
+  offset: 6, 7
+  index: -1
+GOOD_D
+  rotate: true
+  xy: 1411, 8
+  size: 108, 119
+  orig: 114, 125
+  offset: 3, 3
+  index: -1
+GOOD_G
+  rotate: false
+  xy: 1551, 105
+  size: 109, 122
+  orig: 115, 128
+  offset: 3, 3
+  index: -1
+GOOD_O
+  rotate: true
+  xy: 764, 109
+  size: 118, 121
+  orig: 125, 127
+  offset: 3, 3
+  index: -1
+Light_crush_1
+  rotate: false
+  xy: 621, 229
+  size: 1089, 121
+  orig: 1192, 147
+  offset: 51, 13
+  index: -1
+SHAKE_A
+  rotate: true
+  xy: 1147, 110
+  size: 117, 118
+  orig: 124, 125
+  offset: 3, 3
+  index: -1
+SHAKE_E
+  rotate: true
+  xy: 1007, 10
+  size: 98, 119
+  orig: 104, 125
+  offset: 3, 3
+  index: -1
+SHAKE_H
+  rotate: true
+  xy: 887, 2
+  size: 106, 118
+  orig: 112, 124
+  offset: 3, 3
+  index: -1
+SHAKE_K
+  rotate: true
+  xy: 2, 2
+  size: 96, 119
+  orig: 103, 126
+  offset: 3, 3
+  index: -1
+SHAKE_S
+  rotate: true
+  xy: 764, 15
+  size: 92, 121
+  orig: 99, 128
+  offset: 3, 3
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 100
+  size: 617, 250
+  orig: 651, 274
+  offset: 17, 12
+  index: -1

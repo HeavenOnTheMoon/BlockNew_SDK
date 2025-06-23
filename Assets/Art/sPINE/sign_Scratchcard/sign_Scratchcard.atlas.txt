@@ -1,0 +1,20 @@
+
+sign_Scratchcard.png
+size: 568,304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+RingLight
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 302, 302
+  offset: 1, 1
+  index: -1
+round
+  rotate: true
+  xy: 304, 37
+  size: 265, 262
+  orig: 269, 267
+  offset: 2, 3
+  index: -1

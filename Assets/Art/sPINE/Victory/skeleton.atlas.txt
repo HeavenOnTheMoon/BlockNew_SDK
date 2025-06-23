@@ -1,0 +1,244 @@
+
+skeleton.png
+size: 1907,845
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/A12
+  rotate: false
+  xy: 1815, 85
+  size: 54, 111
+  orig: 54, 112
+  offset: 0, 1
+  index: -1
+img/AD
+  rotate: false
+  xy: 1258, 273
+  size: 96, 111
+  orig: 96, 112
+  offset: 0, 1
+  index: -1
+img/AE
+  rotate: false
+  xy: 1510, 62
+  size: 78, 87
+  orig: 79, 88
+  offset: 0, 1
+  index: -1
+img/AE2
+  rotate: false
+  xy: 1675, 89
+  size: 78, 86
+  orig: 78, 88
+  offset: 0, 2
+  index: -1
+img/AL
+  rotate: false
+  xy: 1852, 437
+  size: 45, 112
+  orig: 45, 114
+  offset: 0, 2
+  index: -1
+img/AL2
+  rotate: false
+  xy: 1852, 323
+  size: 42, 112
+  orig: 42, 113
+  offset: 0, 1
+  index: -1
+img/AN
+  rotate: false
+  xy: 1426, 57
+  size: 82, 92
+  orig: 82, 93
+  offset: 0, 1
+  index: -1
+img/AO
+  rotate: false
+  xy: 1590, 89
+  size: 83, 86
+  orig: 86, 87
+  offset: 3, 1
+  index: -1
+img/AW
+  rotate: false
+  xy: 1608, 177
+  size: 145, 133
+  orig: 145, 134
+  offset: 0, 1
+  index: -1
+img/C
+  rotate: true
+  xy: 1807, 15
+  size: 68, 85
+  orig: 68, 86
+  offset: 0, 1
+  index: -1
+img/E-1
+  rotate: false
+  xy: 1623, 2
+  size: 71, 85
+  orig: 73, 86
+  offset: 1, 1
+  index: -1
+img/F
+  rotate: true
+  xy: 1510, 2
+  size: 58, 111
+  orig: 59, 112
+  offset: 1, 1
+  index: -1
+img/L
+  rotate: true
+  xy: 1479, 151
+  size: 73, 109
+  orig: 74, 110
+  offset: 0, 1
+  index: -1
+img/N
+  rotate: false
+  xy: 1258, 162
+  size: 93, 109
+  orig: 94, 110
+  offset: 0, 1
+  index: -1
+img/O
+  rotate: false
+  xy: 1755, 198
+  size: 97, 112
+  orig: 97, 113
+  offset: 0, 1
+  index: -1
+img/P
+  rotate: false
+  xy: 1345, 52
+  size: 79, 106
+  orig: 79, 107
+  offset: 0, 1
+  index: -1
+img/S
+  rotate: false
+  xy: 1258, 48
+  size: 85, 112
+  orig: 85, 113
+  offset: 0, 1
+  index: -1
+img/SpecialEffectsa
+  rotate: false
+  xy: 897, 386
+  size: 457, 457
+  orig: 475, 475
+  offset: 9, 9
+  index: -1
+img/SpecialEffectsb
+  rotate: false
+  xy: 897, 25
+  size: 359, 359
+  orig: 381, 381
+  offset: 11, 11
+  index: -1
+img/T
+  rotate: false
+  xy: 1755, 94
+  size: 58, 102
+  orig: 59, 103
+  offset: 0, 1
+  index: -1
+img/a
+  rotate: false
+  xy: 1696, 2
+  size: 70, 85
+  orig: 70, 86
+  offset: 0, 1
+  index: -1
+img/aa
+  rotate: false
+  xy: 1871, 95
+  size: 20, 40
+  orig: 20, 40
+  offset: 0, 0
+  index: -1
+img/bb
+  rotate: false
+  xy: 1871, 137
+  size: 22, 40
+  orig: 22, 40
+  offset: 0, 0
+  index: -1
+img/cc
+  rotate: true
+  xy: 1871, 179
+  size: 22, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+img/dd
+  rotate: false
+  xy: 1854, 203
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+img/ee
+  rotate: true
+  xy: 1353, 160
+  size: 64, 124
+  orig: 64, 124
+  offset: 0, 0
+  index: -1
+img/ff
+  rotate: false
+  xy: 1768, 16
+  size: 37, 76
+  orig: 37, 76
+  offset: 0, 0
+  index: -1
+img/gg
+  rotate: false
+  xy: 1258, 7
+  size: 68, 39
+  orig: 68, 39
+  offset: 0, 0
+  index: -1
+img/glow2 1
+  rotate: false
+  xy: 1608, 312
+  size: 242, 237
+  orig: 242, 237
+  offset: 0, 0
+  index: -1
+img/hh
+  rotate: true
+  xy: 1426, 15
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1
+img/ll
+  rotate: false
+  xy: 1854, 245
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+img/ovo
+  rotate: false
+  xy: 2, 11
+  size: 893, 832
+  orig: 987, 935
+  offset: 46, 54
+  index: -1
+img/shadow
+  rotate: true
+  xy: 1356, 226
+  size: 617, 250
+  orig: 651, 274
+  offset: 17, 12
+  index: -1
+img/sign_Scratchcard
+  rotate: false
+  xy: 1608, 551
+  size: 293, 292
+  orig: 304, 304
+  offset: 6, 6
+  index: -1

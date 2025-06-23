@@ -1,0 +1,13 @@
+
+skeleton.png
+size: 562,542
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PB_BigBrain_1
+  rotate: false
+  xy: 2, 2
+  size: 558, 538
+  orig: 560, 540
+  offset: 1, 1
+  index: -1

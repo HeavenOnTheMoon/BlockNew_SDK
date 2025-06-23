@@ -1,0 +1,167 @@
+
+EndEffects.png
+size: 1389,1455
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Btn_Grey
+  rotate: false
+  xy: 2, 669
+  size: 886, 368
+  orig: 906, 381
+  offset: 10, 3
+  index: -1
+Btn_green
+  rotate: false
+  xy: 2, 1039
+  size: 974, 414
+  orig: 1004, 434
+  offset: 15, 6
+  index: -1
+CheckMark
+  rotate: false
+  xy: 890, 798
+  size: 249, 212
+  orig: 252, 215
+  offset: 1, 1
+  index: -1
+Light_Grey
+  rotate: false
+  xy: 528, 44
+  size: 514, 623
+  orig: 540, 655
+  offset: 13, 16
+  index: -1
+Light_green
+  rotate: false
+  xy: 2, 32
+  size: 524, 635
+  orig: 540, 655
+  offset: 8, 10
+  index: -1
+bg_partical_0000
+  rotate: false
+  xy: 890, 677
+  size: 112, 119
+  orig: 250, 250
+  offset: 64, 95
+  index: -1
+bg_partical_0012
+  rotate: false
+  xy: 890, 677
+  size: 112, 119
+  orig: 250, 250
+  offset: 64, 95
+  index: -1
+bg_partical_0001
+  rotate: false
+  xy: 1044, 3
+  size: 111, 101
+  orig: 250, 250
+  offset: 64, 92
+  index: -1
+bg_partical_0002
+  rotate: false
+  xy: 1157, 2
+  size: 111, 104
+  orig: 250, 250
+  offset: 63, 93
+  index: -1
+bg_partical_0003
+  rotate: false
+  xy: 1153, 648
+  size: 111, 103
+  orig: 250, 250
+  offset: 62, 97
+  index: -1
+bg_partical_0004
+  rotate: false
+  xy: 1153, 108
+  size: 106, 108
+  orig: 250, 250
+  offset: 67, 95
+  index: -1
+bg_partical_0005
+  rotate: false
+  xy: 1266, 612
+  size: 107, 105
+  orig: 250, 250
+  offset: 66, 92
+  index: -1
+bg_partical_0006
+  rotate: false
+  xy: 1044, 560
+  size: 107, 115
+  orig: 250, 250
+  offset: 66, 93
+  index: -1
+bg_partical_0007
+  rotate: false
+  xy: 1044, 218
+  size: 109, 109
+  orig: 250, 250
+  offset: 65, 94
+  index: -1
+bg_partical_0008
+  rotate: false
+  xy: 1044, 444
+  size: 109, 114
+  orig: 250, 250
+  offset: 65, 92
+  index: -1
+bg_partical_0009
+  rotate: false
+  xy: 1044, 106
+  size: 107, 110
+  orig: 250, 250
+  offset: 67, 95
+  index: -1
+bg_partical_0010
+  rotate: false
+  xy: 1044, 329
+  size: 109, 113
+  orig: 250, 250
+  offset: 66, 94
+  index: -1
+bg_partical_0011
+  rotate: false
+  xy: 1004, 677
+  size: 111, 119
+  orig: 250, 250
+  offset: 65, 94
+  index: -1
+black
+  rotate: false
+  xy: 1155, 545
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+fx_b
+  rotate: true
+  xy: 890, 1012
+  size: 25, 24
+  orig: 40, 40
+  offset: 7, 8
+  index: -1
+magic_line
+  rotate: true
+  xy: 978, 1012
+  size: 441, 205
+  orig: 512, 256
+  offset: 35, 25
+  index: -1
+no space left
+  rotate: true
+  xy: 1297, 719
+  size: 734, 90
+  orig: 743, 98
+  offset: 4, 4
+  index: -1
+welldone
+  rotate: true
+  xy: 1185, 753
+  size: 700, 110
+  orig: 708, 116
+  offset: 4, 3
+  index: -1

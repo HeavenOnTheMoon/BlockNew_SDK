@@ -1,0 +1,27 @@
+
+Guide_1.png
+size: 315,229
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WhiteBlock
+  rotate: false
+  xy: 193, 111
+  size: 120, 116
+  orig: 128, 118
+  offset: 4, 1
+  index: -1
+block
+  rotate: true
+  xy: 193, 2
+  size: 107, 113
+  orig: 109, 116
+  offset: 1, 2
+  index: -1
+hand
+  rotate: true
+  xy: 2, 22
+  size: 205, 189
+  orig: 205, 189
+  offset: 0, 0
+  index: -1

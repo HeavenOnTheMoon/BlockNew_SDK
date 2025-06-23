@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 654,659
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 168
+  size: 499, 213
+  orig: 517, 233
+  offset: 9, 10
+  index: -1
+Brain
+  rotate: false
+  xy: 2, 383
+  size: 642, 126
+  orig: 660, 126
+  offset: 9, 0
+  index: -1
+Crush
+  rotate: false
+  xy: 2, 38
+  size: 416, 128
+  orig: 448, 130
+  offset: 16, 2
+  index: -1
+Good
+  rotate: true
+  xy: 503, 2
+  size: 379, 129
+  orig: 381, 130
+  offset: 1, 1
+  index: -1
+Shake
+  rotate: false
+  xy: 2, 511
+  size: 650, 146
+  orig: 669, 148
+  offset: 10, 1
+  index: -1
+light
+  rotate: false
+  xy: 2, 11
+  size: 449, 25
+  orig: 469, 28
+  offset: 10, 2
+  index: -1

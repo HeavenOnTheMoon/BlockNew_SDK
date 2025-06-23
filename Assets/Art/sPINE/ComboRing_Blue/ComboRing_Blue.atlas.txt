@@ -1,0 +1,47 @@
+
+ComboRing_Blue.png
+size: 1636,1457
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IMG/b
+  rotate: false
+  xy: 2, 2
+  size: 1548, 1453
+  orig: 1548, 1453
+  offset: 0, 0
+  index: -1
+IMG/light
+  rotate: false
+  xy: 1552, 1372
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1
+
+ComboRing_Blue2.png
+size: 2028,2044
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IMG/BG
+  rotate: false
+  xy: 2, 1033
+  size: 1009, 1009
+  orig: 1009, 1009
+  offset: 0, 0
+  index: -1
+IMG/a
+  rotate: true
+  xy: 2, 2
+  size: 1028, 1031
+  orig: 1038, 1041
+  offset: 5, 5
+  index: -1
+IMG/c
+  rotate: true
+  xy: 1013, 1032
+  size: 1010, 1013
+  orig: 1010, 1013
+  offset: 0, 0
+  index: -1

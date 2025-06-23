@@ -1,0 +1,27 @@
+
+Box_light_chose.png
+size: 450,210
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boxBigLight
+  rotate: false
+  xy: 212, 10
+  size: 200, 198
+  orig: 206, 204
+  offset: 3, 3
+  index: -1
+fx_b
+  rotate: false
+  xy: 414, 174
+  size: 34, 34
+  orig: 69, 69
+  offset: 17, 18
+  index: -1
+ring_a
+  rotate: false
+  xy: 2, 2
+  size: 208, 206
+  orig: 214, 212
+  offset: 3, 3
+  index: -1

@@ -1,0 +1,27 @@
+
+BonusTime_1.png
+size: 2581,1084
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light_crush_1
+  rotate: true
+  xy: 2344, 162
+  size: 920, 95
+  orig: 1078, 131
+  offset: 86, 18
+  index: -1
+paticle
+  rotate: true
+  xy: 2441, 836
+  size: 246, 138
+  orig: 246, 138
+  offset: 0, 0
+  index: -1
+ring_1
+  rotate: true
+  xy: 2, 2
+  size: 1080, 2340
+  orig: 1080, 2340
+  offset: 0, 0
+  index: -1

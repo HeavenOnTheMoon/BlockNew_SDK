@@ -1,0 +1,111 @@
+
+checkmark.png
+size: 819,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CheckMark
+  rotate: false
+  xy: 2, 2
+  size: 155, 131
+  orig: 155, 132
+  offset: 0, 1
+  index: -1
+bg_partical_0001
+  rotate: false
+  xy: 445, 118
+  size: 111, 101
+  orig: 250, 250
+  offset: 64, 92
+  index: -1
+bg_partical_0002
+  rotate: false
+  xy: 381, 12
+  size: 111, 104
+  orig: 250, 250
+  offset: 63, 93
+  index: -1
+bg_partical_0003
+  rotate: true
+  xy: 494, 5
+  size: 111, 103
+  orig: 250, 250
+  offset: 62, 97
+  index: -1
+bg_partical_0004
+  rotate: true
+  xy: 559, 118
+  size: 106, 108
+  orig: 250, 250
+  offset: 67, 95
+  index: -1
+bg_partical_0005
+  rotate: true
+  xy: 670, 118
+  size: 107, 105
+  orig: 250, 250
+  offset: 66, 92
+  index: -1
+bg_partical_0006
+  rotate: false
+  xy: 272, 18
+  size: 107, 115
+  orig: 250, 250
+  offset: 66, 93
+  index: -1
+bg_partical_0007
+  rotate: false
+  xy: 708, 7
+  size: 109, 109
+  orig: 250, 250
+  offset: 65, 94
+  index: -1
+bg_partical_0008
+  rotate: false
+  xy: 559, 226
+  size: 109, 114
+  orig: 250, 250
+  offset: 65, 92
+  index: -1
+bg_partical_0009
+  rotate: false
+  xy: 599, 6
+  size: 107, 110
+  orig: 250, 250
+  offset: 67, 95
+  index: -1
+bg_partical_0010
+  rotate: false
+  xy: 670, 227
+  size: 109, 113
+  orig: 250, 250
+  offset: 66, 94
+  index: -1
+bg_partical_0011
+  rotate: false
+  xy: 159, 14
+  size: 111, 119
+  orig: 250, 250
+  offset: 65, 94
+  index: -1
+bg_partical_0012
+  rotate: false
+  xy: 445, 221
+  size: 112, 119
+  orig: 250, 250
+  offset: 64, 95
+  index: -1
+bg_partical_0000
+  rotate: false
+  xy: 445, 221
+  size: 112, 119
+  orig: 250, 250
+  offset: 64, 95
+  index: -1
+magic_line
+  rotate: false
+  xy: 2, 135
+  size: 441, 205
+  orig: 512, 256
+  offset: 35, 25
+  index: -1

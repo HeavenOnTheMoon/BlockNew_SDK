@@ -1,0 +1,668 @@
+﻿{"LevelData" : [
+  {
+    "id": "Level_1",
+    "layout": "0",
+    "index": 0,
+    "target": "2",
+    "target_count": "10",
+    "block": "7,7,26,26,0,27",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_2",
+    "layout": "1",
+    "index": 1,
+    "target": "2",
+    "target_count": "6",
+    "block": "7,22,18",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_3",
+    "layout": "2",
+    "index": 2,
+    "target": "2#3",
+    "target_count": "6#6",
+    "block": "19,35,26,7,9,11",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_4",
+    "layout": "3",
+    "index": 3,
+    "target": "2#3#4",
+    "target_count": "5#5#4",
+    "block": "39,20,24,9,26,37",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_5",
+    "layout": "4",
+    "index": 4,
+    "target": "5",
+    "target_count": "16",
+    "block": "6,33,0,27,8,2",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_6",
+    "layout": "5",
+    "index": 5,
+    "target": "2#6#4",
+    "target_count": "4#4#4",
+    "block": "33,35,25,23,27,26",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_7",
+    "layout": "6",
+    "index": 6,
+    "target": "3#4#5",
+    "target_count": "6#5#6",
+    "block": "28,0,33",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_8",
+    "layout": "7",
+    "index": 7,
+    "target": "2#5#6",
+    "target_count": "5#5#5",
+    "block": "37,39,26,11,27,31",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_9",
+    "layout": "8",
+    "index": 8,
+    "target": "3#6",
+    "target_count": "8#9",
+    "block": "14,16,35,35,19,28",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_10",
+    "layout": "9",
+    "index": 9,
+    "target": "4",
+    "target_count": "9",
+    "block": "5,32,20",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_11",
+    "layout": "10",
+    "index": 10,
+    "target": "4#5#6",
+    "target_count": "7#7#7",
+    "block": "12,13,14,20,7,0,11,11,11",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_12",
+    "layout": "11",
+    "index": 11,
+    "target": "2#3#4",
+    "target_count": "6#6#6",
+    "block": "28,28,1,4,4,11",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_13",
+    "layout": "12",
+    "index": 12,
+    "target": "2#3",
+    "target_count": "5#5",
+    "block": "12,12,21,24,22,19",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_14",
+    "layout": "13",
+    "index": 13,
+    "target": "3#4#6",
+    "target_count": "7#7#7",
+    "block": "26,26,27,25,19,2,2,0,36",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_15",
+    "layout": "14",
+    "index": 14,
+    "target": "2",
+    "target_count": "10",
+    "block": "28,3,4,16,14,27,34,36,10",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_16",
+    "layout": "15",
+    "index": 15,
+    "target": "3#4",
+    "target_count": "4#6",
+    "block": "6,8,14,16,28,31",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_17",
+    "layout": "16",
+    "index": 16,
+    "target": "5",
+    "target_count": "10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_18",
+    "layout": "17",
+    "index": 17,
+    "target": "2#6",
+    "target_count": "6#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_19",
+    "layout": "18",
+    "index": 18,
+    "target": "3#4#5",
+    "target_count": "8#8#9",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_20",
+    "layout": "19",
+    "index": 19,
+    "target": "6#3#2",
+    "target_count": "7#7#7",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_21",
+    "layout": "20",
+    "index": 20,
+    "target": "4#5",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_22",
+    "layout": "21",
+    "index": 21,
+    "target": "2#4#5",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_23",
+    "layout": "22",
+    "index": 22,
+    "target": "2#3#5",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_24",
+    "layout": "23",
+    "index": 23,
+    "target": "2#3#6",
+    "target_count": "6#10#16",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_25",
+    "layout": "24",
+    "index": 24,
+    "target": "4#3",
+    "target_count": "15#15",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_26",
+    "layout": "25",
+    "index": 25,
+    "target": "5#2",
+    "target_count": "10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_27",
+    "layout": "26",
+    "index": 26,
+    "target": "5",
+    "target_count": "25",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_28",
+    "layout": "27",
+    "index": 27,
+    "target": "3#4#6",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_29",
+    "layout": "28",
+    "index": 28,
+    "target": "4#5",
+    "target_count": "10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_30",
+    "layout": "29",
+    "index": 29,
+    "target": "3",
+    "target_count": "16",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_31",
+    "layout": "30",
+    "index": 30,
+    "target": "2#3#4",
+    "target_count": "9#12#9",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_32",
+    "layout": "31",
+    "index": 31,
+    "target": "2#5#6",
+    "target_count": "8#8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_33",
+    "layout": "32",
+    "index": 32,
+    "target": "3#5",
+    "target_count": "10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_34",
+    "layout": "33",
+    "index": 33,
+    "target": "3",
+    "target_count": "15",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_35",
+    "layout": "34",
+    "index": 34,
+    "target": "5#4",
+    "target_count": "8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_36",
+    "layout": "35",
+    "index": 35,
+    "target": "2#5#6",
+    "target_count": "10#6#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_37",
+    "layout": "36",
+    "index": 36,
+    "target": "4#3",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_38",
+    "layout": "37",
+    "index": 37,
+    "target": "4#2#3",
+    "target_count": "6#6#6",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_39",
+    "layout": "38",
+    "index": 38,
+    "target": "5#3#2",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_40",
+    "layout": "39",
+    "index": 39,
+    "target": "4#2",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_41",
+    "layout": "40",
+    "index": 40,
+    "target": "2",
+    "target_count": "20",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_42",
+    "layout": "41",
+    "index": 41,
+    "target": "4#5#2",
+    "target_count": "9#11#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_43",
+    "layout": "42",
+    "index": 42,
+    "target": "6#5#2",
+    "target_count": "8#8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_44",
+    "layout": "43",
+    "index": 43,
+    "target": "4#5",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_45",
+    "layout": "44",
+    "index": 44,
+    "target": "2",
+    "target_count": "20",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_46",
+    "layout": "45",
+    "index": 45,
+    "target": "3#4",
+    "target_count": "20#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_47",
+    "layout": "46",
+    "index": 46,
+    "target": "5",
+    "target_count": "25",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_48",
+    "layout": "47",
+    "index": 47,
+    "target": "6",
+    "target_count": "20",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_49",
+    "layout": "48",
+    "index": 48,
+    "target": "4#6",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_50",
+    "layout": "49",
+    "index": 49,
+    "target": "5",
+    "target_count": "20",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_51",
+    "layout": "50",
+    "index": 50,
+    "target": "2#5#6",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_52",
+    "layout": "51",
+    "index": 51,
+    "target": "3#4#6",
+    "target_count": "5#10#15",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_53",
+    "layout": "52",
+    "index": 52,
+    "target": "2#3#5",
+    "target_count": "12#12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_54",
+    "layout": "53",
+    "index": 53,
+    "target": "2#3#4",
+    "target_count": "8#8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_55",
+    "layout": "54",
+    "index": 54,
+    "target": "3#5#6",
+    "target_count": "10#11#11",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_56",
+    "layout": "55",
+    "index": 55,
+    "target": "4#5#2",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_57",
+    "layout": "56",
+    "index": 56,
+    "target": "3#2#5",
+    "target_count": "8#8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_58",
+    "layout": "57",
+    "index": 57,
+    "target": "3#2#5",
+    "target_count": "12#12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_59",
+    "layout": "58",
+    "index": 58,
+    "target": "2#4#6",
+    "target_count": "15#8#15",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_60",
+    "layout": "59",
+    "index": 59,
+    "target": "4#6",
+    "target_count": "10#25",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_61",
+    "layout": "60",
+    "index": 60,
+    "target": "2#3",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_62",
+    "layout": "61",
+    "index": 61,
+    "target": "2",
+    "target_count": "20",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_63",
+    "layout": "62",
+    "index": 62,
+    "target": "4",
+    "target_count": "25",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_64",
+    "layout": "63",
+    "index": 63,
+    "target": "2#4",
+    "target_count": "8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_65",
+    "layout": "64",
+    "index": 64,
+    "target": "3#5#6",
+    "target_count": "10#10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_66",
+    "layout": "65",
+    "index": 65,
+    "target": "3#6",
+    "target_count": "15#15",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_67",
+    "layout": "66",
+    "index": 66,
+    "target": "3#4#6",
+    "target_count": "12#12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_68",
+    "layout": "67",
+    "index": 67,
+    "target": "3#4",
+    "target_count": "12#12",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_69",
+    "layout": "68",
+    "index": 68,
+    "target": "3",
+    "target_count": "25",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_70",
+    "layout": "69",
+    "index": 69,
+    "target": "2#6",
+    "target_count": "10#10",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_71",
+    "layout": "70",
+    "index": 70,
+    "target": "5#2",
+    "target_count": "8#8",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_72",
+    "layout": "71",
+    "index": 71,
+    "target": "3#4#5",
+    "target_count": "6#10#15",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_73",
+    "layout": "72",
+    "index": 72,
+    "target": "2#4#5#6",
+    "target_count": "7#7#7#7",
+    "block": "",
+    "difficulty": 0
+  },
+  {
+    "id": "Level_74",
+    "layout": "73",
+    "index": 73,
+    "target": "2#4#5#6",
+    "target_count": "7#7#7#7",
+    "block": "",
+    "difficulty": 0
+  }
+]}
