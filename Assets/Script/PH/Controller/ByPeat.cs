@@ -373,11 +373,6 @@ public class ByPeat
             }
         }
 
-       /* foreach (var item in config.advLocationIsOpen)
-        {
-            Debug.Log("==============     " + item.Key);
-        }*/
-
         // 判断是否超出了广告位播放限制
         // 没有配置广告位或者广告位开关为0，则不播广告
         if (!config.advLocationIsOpen.ContainsKey(key)) return new CheckAdCanShowRes { ZooFord = false, Action = "Has no ad location" };

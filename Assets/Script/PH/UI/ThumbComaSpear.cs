@@ -108,6 +108,9 @@ public class ThumbComaSpear : MonoBehaviour
         sb.Append("游戏关联的盒子用户ID ：");
         sb.Append(BegStorm?.uid);
         sb.Append("\n");
+        sb.Append("游戏关联的盒子版本 ：");
+        sb.Append(BegStorm?.appBuildVersion);
+        sb.Append("\n");
         sb.Append("keychain拿到的数据");
         sb.Append("\n");
         sb.Append("keychainAppName : " + BegStorm?.appName);

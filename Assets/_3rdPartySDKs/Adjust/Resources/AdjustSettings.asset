@@ -24,6 +24,7 @@ MonoBehaviour:
   _iOSUrlIdentifier: 
   _iOSUrlSchemes:
   - whimosaic31001
-  _iOSUniversalLinksDomains: []
+  _iOSUniversalLinksDomains:
+  - 4nvn.adj.st
   androidUriSchemes: []
   _androidCustomActivityName: 

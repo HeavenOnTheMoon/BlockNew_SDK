@@ -1,4 +1,5 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using AdjustSdk;
+using Cysharp.Threading.Tasks;
 using LitJson;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -119,17 +120,12 @@ public class PHFaculty : MonoBehaviour
         {
             PHMindGazeFaculty.SetBool(loginKey, true);
             // 首次登录，向Adjust服务器请求归因信息
-            AdjustDeviceModel adjustDeviceModel = await PlentyPeat.Equality.HisPlentySaturnComa();
+            BoxModel adjustDeviceModel = await PlentyPeat.Equality.HisPlentySaturnComa();
             if (adjustDeviceModel != null)
             {
                 // 设备信息
-                Debug.Log("--- Adjust device info:" + JsonMapper.ToJson(adjustDeviceModel));
-                if (PHVolt.CudCyanideRoam(adjustDeviceModel.TrackerName, out string jsonString))
-                {
-                    BoxModel _boxModel = JsonMapper.ToObject<BoxModel>(jsonString);
-                    // 保存盒子信息
-                    DustyPeat.Equality.TugFenComa(_boxModel);
-                }
+                // 保存盒子信息
+                DustyPeat.Equality.TugFenComa(adjustDeviceModel);
             }
             await DustyWhen();
         }
@@ -194,6 +190,9 @@ public class PHFaculty : MonoBehaviour
         // 现在有多次登录的情况，每次登录都先关闭登录失败弹窗
         PHUIFaculty.Equality.SpoonUITrap("IsotopeUnaidedSpear");
 
+        // 获取盒子信息
+        BegStorm = await DustyPeat.Equality.HisFenComa();
+
         // 1、登录/注册
         AboveIceberg = await DustyPeat.Equality.Dusty();
         if (!AboveIceberg)
@@ -235,8 +234,6 @@ public class PHFaculty : MonoBehaviour
             return;
         }
 
-        // 获取盒子信息
-        BegStorm = await DustyPeat.Equality.HisFenComa();
         FolkIceberg = true;
 
         // 4、TODO: 初始化SDK（异步）
@@ -271,7 +268,7 @@ public class PHFaculty : MonoBehaviour
         int recoverRewardTimesSeconds = RunoffChoppyPeat.Equality.RunoffChoppy.clientNoOperationRule.recoverRewardTimesSeconds;
         if ((BioticAction == 0 || MortalPeat.Equality.Outwit == 0) && recoverRewardTimesSeconds != 0)
         {
-            Debug.Log("--- 有用户操作，恢复发奖");
+            //Debug.Log("--- 有用户操作，恢复发奖");
             if (BioticAction == 0)
             {
                 BioticAction = 1;   // 先设置为1，防止重复发送请求

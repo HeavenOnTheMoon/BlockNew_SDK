@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,13 +37,22 @@ public class LayerFatPeat
     private MortalLayerFatBifocal GirderLayerFatBifocal;    // 奖励事件
     private DeftLayerFatBifocal PuffLayerFatBifocal;        // 用户行为事件
 
+    private async UniTask WaitLogin()
+    {
+        await UniTask.WaitUntil(() =>
+        {
+            return DustyPeat.Equality.MyDusty;
+        });
+    }
 
     /// <summary>
     /// 单次上报广告事件
     /// </summary>
-    public void DramByLayer(string eventCode, string eventType, decimal revenue, string eventJson, int event_num = -1)
+    public async void DramByLayer(string eventCode, string eventType, decimal revenue, string eventJson, int event_num = -1)
     {
         if (!RouteLayerDramAction(EventLogType.Ad, event_num)) return;
+
+        await WaitLogin();
 
         ByLayerFatStorm model = new ByLayerFatStorm(eventCode, eventType, revenue, eventJson);
         OxLayerFatBifocal.DramLayer(model);
@@ -52,9 +62,11 @@ public class LayerFatPeat
     /// 单次上报日活事件
     /// </summary>
     /// <param name="eventName"></param>
-    public void DramUrnLayer(int event_num, string eventName, long duration)
+    public async void DramUrnLayer(int event_num, string eventName, long duration)
     {
         if (!RouteLayerDramAction(EventLogType.Dau, event_num)) return;
+
+        await WaitLogin();
 
         DauEventLogModel model = new DauEventLogModel(eventName, duration);
         dauLayerFatBifocal.DramLayer(model);
@@ -64,9 +76,11 @@ public class LayerFatPeat
     /// 单次上报奖励事件
     /// </summary>
     /// <param name="eventCode"></param>
-    public void DramMortalLayer(int event_num, string eventCode)
+    public async void DramMortalLayer(int event_num, string eventCode)
     {
         if (!RouteLayerDramAction(EventLogType.Reward, event_num)) return;
+
+        await WaitLogin();
 
         RewardEventLogModel model = new RewardEventLogModel(eventCode);
         GirderLayerFatBifocal.DramLayer(model);
@@ -76,9 +90,11 @@ public class LayerFatPeat
     /// 单次上报用户行为事件
     /// </summary>
     /// <param name="eventName"></param>
-    public void DramDeftLayer(int event_num, string eventName, string eventJson = "")
+    public async void DramDeftLayer(int event_num, string eventName, string eventJson = "")
     {
         if (!RouteLayerDramAction(EventLogType.User, event_num)) return;
+
+        await WaitLogin();
 
         UserEventLogModel model = new UserEventLogModel(eventName, eventJson);
         PuffLayerFatBifocal.DramLayer(model);
@@ -87,9 +103,11 @@ public class LayerFatPeat
     /// <summary>
     /// 批量上报用户行为事件
     /// </summary>
-    public void ErectDramDeftLayer()
+    public async void ErectDramDeftLayer()
     {
         if (!RouteLayerDramAction(EventLogType.User, -1)) return;
+
+        await WaitLogin();
 
         PuffLayerFatBifocal.ErectDramLayer();
     }

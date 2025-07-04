@@ -1,6 +1,8 @@
 ﻿using AdjustSdk;
 using Cysharp.Threading.Tasks;
+using LitJson;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlentyPeat
@@ -43,6 +45,7 @@ public class PlentyPeat
     {
         Debug.Log($"--- Adjust start, initRetryCount:{FolkSheepExtol}");
         AdjustConfig adjustConfig = new AdjustConfig(PHFaculty.Instance.PlentyMeter, PHFaculty.Instance.PlentyConurbation);
+        adjustConfig.AttributionChangedDelegate = AttributionChangedDelegate;
         Adjust.InitSdk(adjustConfig);
 
         // 等待初始化成功/失败，3秒超时
@@ -67,6 +70,19 @@ public class PlentyPeat
             }
         }
     }
+
+    string deeplink = null;
+    public void AttributionChangedDelegate(AdjustAttribution attribution)
+    {
+        Debug.Log("--- Attribution changed");
+        Debug.Log(JsonMapper.ToJson(attribution));
+        Dictionary<string, object> jsonResponse = attribution.JsonResponse;
+        if (jsonResponse.ContainsKey("deeplink"))
+        {
+            deeplink = jsonResponse["deeplink"].ToString();
+        }
+    }
+
     /// <summary>
     /// 获取Adjust的adid，3秒超时
     /// </summary>
@@ -101,7 +117,7 @@ public class PlentyPeat
     /// 获取自定义链接信息
     /// </summary>
     /// <returns></returns>
-    public async UniTask<AdjustDeviceModel> HisPlentySaturnComa()
+    public async UniTask<BoxModel> HisPlentySaturnComa()
     {
         PlentyRare = await HisRare();
         Debug.Log($"--- adid: {PlentyRare}");
@@ -110,6 +126,24 @@ public class PlentyPeat
             Debug.LogError("Failed to get Adid");
             return null;
         }
+
+        // 等待归因变化回调
+        await UniTask.WhenAny(
+            UniTask.WaitUntil(() => {
+                return !string.IsNullOrEmpty(deeplink);
+            }),
+            UniTask.Delay(TimeSpan.FromSeconds(3))
+        );
+
+        if (deeplink != null)
+        {
+            BoxModel deepLinkBoxModel = PHVolt.ScopeRyeShovel(deeplink);
+            if (deepLinkBoxModel != null)
+            {
+                return deepLinkBoxModel;
+            }
+        }
+
         string Fox= $"https://api.adjust.com/device_service/api/v2/inspect_device?app_token={PHFaculty.Instance.PlentyMeter}&advertising_id={PlentyRare}";
         Debug.Log($"--- adjust device url: " + Fox);
         var headers = new
@@ -121,7 +155,16 @@ public class PlentyPeat
         {
             var responseData = res.GetData<AdjustDeviceModel>();
             CherishKnot = responseData.TrackerName;
-            return responseData;
+            if (PHVolt.CudCyanideRoam(responseData.TrackerName, out string jsonString))
+            {
+                BoxModel _boxModel = JsonMapper.ToObject<BoxModel>(jsonString);
+                return _boxModel;
+            }
+            else
+            {
+                Debug.LogError("Get device info from Adjust is null");
+                return null;
+            }
         }
         else
         {

@@ -129,4 +129,8 @@ public class NativePeat
                 return "en";
         }
     }
+    public async Task<BoxModel> GetBoxModel()
+    {
+        return await IgnoreBifocal.GetSharedData();
+    }
 }
